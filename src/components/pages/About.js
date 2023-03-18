@@ -1,4 +1,7 @@
 import React from 'react';
+import MikeFomin from "../../img/mikefomin.png"
+import "../../style/about.css"
+
 
 const styles = {
   andreahergert: {
@@ -29,7 +32,9 @@ export default function About() {
   return (
     <div style={styles.space}>
       <h2 style={styles.h2}>About Me</h2>
-      {/* image */}
+      <div className='picOfMe' >
+        <img style={styles.mikefomin} src={MikeFomin} alt="Michael Fomin" />
+        </div>
       <p style={styles.p}>
         ABOUT MEE COMINGGGGG SOOOOOON!!!!!!
       </p>
