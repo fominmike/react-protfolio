@@ -13,11 +13,15 @@ const styles = {
     cursor: 'default',
   },
   h2: {
+    color: "white",
     textAlign: 'center',
   },
   space: {
     paddingLeft: '0.5rem',
     paddingRight: '0.5rem',
+  },
+  p: {
+    color: "white",
   },
 };
 
@@ -26,7 +30,7 @@ export default function About() {
     <div style={styles.space}>
       <h2 style={styles.h2}>About Me</h2>
       {/* image */}
-      <p>
+      <p style={styles.p}>
         ABOUT MEE COMINGGGGG SOOOOOON!!!!!!
       </p>
      

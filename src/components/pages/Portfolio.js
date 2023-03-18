@@ -3,6 +3,7 @@ import "../../style/portfolio.css";
 
 const styles = {
   h2: {
+    color: "white",
     textAlign: "center",
   },
   space: {
@@ -25,7 +26,7 @@ export default function Portfolio() {
     <div>
       <h2 style={styles.h2}>Portfolio</h2>
 
-       <h1>Coming soon!!!!!!!!!!</h1>     
+       <h1 style={styles.h2}>Coming soon!!!!!!!!!!</h1>     
     </div>
   );
 }

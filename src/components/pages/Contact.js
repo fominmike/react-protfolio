@@ -4,6 +4,7 @@ import { validateEmail } from "../../utils/helpers";
 
 const styles = {
   h2: {
+    color: "white",
     textAlign: "center",
   },
   form: {
@@ -73,6 +74,7 @@ function Form() {
     <div>
       <h2 style={styles.h2}>Contact</h2>
       <div style={styles.email}>
+        <p>(916)575-0969</p>
         <a href="mailto:mikeyyfomin@gmail.com">mikeyyfomin@gmail.com</a>
       </div>
       <form action="mailto:mikeyyfomin@gmail.com" method= "post" encType="text/plain" style={styles.form} className="form">

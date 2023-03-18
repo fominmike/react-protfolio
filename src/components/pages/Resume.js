@@ -2,6 +2,7 @@ import React from "react";
 
 const styles = {
   h2: {
+    color: "white",
     textAlign: "center",
   },
   link: {
@@ -12,7 +13,11 @@ const styles = {
     paddingRight: "0.5rem",
   },
   h3: {
+    color: "white",
     paddingTop: "0.75rem",
+  },
+  p: {
+    color: "white",
   },
 };
 
@@ -20,8 +25,8 @@ export default function Resume() {
   return (
     <div style={styles.space}>
       <h2 style={styles.h2}>Resume</h2>
-      <h3 style={styles.h3}>Technical Skills</h3>
-      <p>
+      <h3 style={styles.h3} >Technical Skills</h3>
+      <p style={styles.p}>
         <h4>Front-End</h4>
         <ul>
           <li>HTML</li>
@@ -33,7 +38,7 @@ export default function Resume() {
           <li>Responsive Design</li>
         </ul>
       </p>
-      <p>
+      <p style={styles.p}>
         <h4>Back-End</h4>
         <ul>
           <li>MySQL</li>
