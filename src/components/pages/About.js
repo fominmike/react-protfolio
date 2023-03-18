@@ -24,6 +24,7 @@ const styles = {
     paddingRight: '0.5rem',
   },
   p: {
+    textAlign: 'center',
     color: "white",
   },
 };
@@ -35,9 +36,16 @@ export default function About() {
       <div className='picOfMe' >
         <img style={styles.mikefomin} src={MikeFomin} alt="Michael Fomin" />
         </div>
+        <br></br>
       <p style={styles.p}>
-        ABOUT MEE COMINGGGGG SOOOOOON!!!!!!
+        Hello!! Im a Full Stack Web Developer.
       </p>
+
+      <p style={styles.p}>
+        more info of me to come in the futer!! be sure to check out my linkedin, github, or instagram below!
+      </p>
+
+
      
     </div>
   );
