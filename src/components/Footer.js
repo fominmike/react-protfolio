@@ -2,10 +2,12 @@ import React from "react";
 import Github from "../img/github.png";
 import LinkedIn from "../img/linkedin.png";
 import Instagram from "../img/instagram.png"
+import '../style/footer.css'
+
 
  const styles = {
    icons: {
-     borderRadius: '25%',
+    borderRadius: '25%',
     filter: 'opacity(100%)',
     margin: '5px',
    },
@@ -23,7 +25,7 @@ function Footer() {
           <a href="https://github.com/fominmike" target="blank">
              <img style={styles.icons} src={Github} alt="githubicon" /> 
           </a>
-          <a href="https://www.instagram.com/mikefominn/" target="blank">
+          <a className="instagram" href="https://www.instagram.com/mikefominn/" target="blank">
              <img style={styles.icons} src={Instagram} alt="instagramicon" /> 
           </a>
         </section>
